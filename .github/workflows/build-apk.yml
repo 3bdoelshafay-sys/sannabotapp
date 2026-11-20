@@ -28,7 +28,7 @@ jobs:
         run: cp local.config.example.ts local.config.ts
 
       - name: Install JS dependencies
-        run: npm ci
+        run: npm install
 
       - name: Build release APK
         working-directory: android
